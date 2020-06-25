@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><transactions>
+    <transaction id="1-1">
+        <transactionNumber>100</transactionNumber>
+        <transactionCode>ABC</transactionCode>
+        <orderDate>2020</orderDate>
+    </transaction>
+    <transaction id="2-1">
+        <transactionNumber>100</transactionNumber>
+        <transactionCode>DEF</transactionCode>
+        <orderDate>2020</orderDate>
+    </transaction>
+    <transaction id="2-2">
+        <transactionNumber>100</transactionNumber>
+        <transactionCode>GHI</transactionCode>
+        <orderDate>2018</orderDate>
+    </transaction></transactions>
