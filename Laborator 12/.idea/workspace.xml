@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f0be065f-900c-48ce-a669-bab87cd48a62" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/src/app/clients/client-detail/client-detail.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/src/app/clients/client-detail/client-detail.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/src/app/clients/client-detail/client-detail.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/src/app/clients/client-detail/client-detail.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/src/app/clients/client-list/client-list.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/src/app/clients/client-list/client-list.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/src/app/clients/client-list/client-list.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/src/app/clients/client-list/client-list.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/src/app/clients/client-new/client-new.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/src/app/clients/client-new/client-new.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/src/app/clients/client-new/client-new.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/src/app/clients/client-new/client-new.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/src/app/clients/clients.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/src/app/clients/clients.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/src/app/clients/clients.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/src/app/clients/clients.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/src/app/clients/shared/client.model.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/src/app/clients/shared/client.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/src/app/clients/shared/client.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/src/app/clients/shared/client.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/src/app/movies/movie-detail/movie-detail.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/src/app/movies/movie-detail/movie-detail.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/src/app/movies/movie-detail/movie-detail.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/src/app/movies/movie-detail/movie-detail.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/src/app/movies/movie-list/movie-list.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/src/app/movies/movie-list/movie-list.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/src/app/movies/movie-list/movie-list.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/src/app/movies/movie-list/movie-list.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/src/app/movies/movie-new/movie-new.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/src/app/movies/movie-new/movie-new.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/src/app/movies/movie-new/movie-new.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/src/app/movies/movie-new/movie-new.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/src/app/movies/movies.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/src/app/movies/movies.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/src/app/movies/movies.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/src/app/movies/movies.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/src/app/movies/shared/movie.model.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/src/app/movies/shared/movie.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/src/app/movies/shared/movie.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/src/app/movies/shared/movie.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/src/app/rentals/rental-detail/rental-detail.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/src/app/rentals/rental-detail/rental-detail.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/src/app/rentals/rental-detail/rental-detail.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/src/app/rentals/rental-detail/rental-detail.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/src/app/rentals/rental-list/rental-list.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/src/app/rentals/rental-list/rental-list.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/src/app/rentals/rental-list/rental-list.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/src/app/rentals/rental-list/rental-list.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/src/app/rentals/rental-new/rental-new.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/src/app/rentals/rental-new/rental-new.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/src/app/rentals/rental-new/rental-new.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/src/app/rentals/rental-new/rental-new.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/src/app/rentals/rentals.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/src/app/rentals/rentals.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/src/app/rentals/rentals.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/src/app/rentals/rentals.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/src/app/rentals/shared/rental.model.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/src/app/rentals/shared/rental.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/src/app/rentals/shared/rental.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/src/app/rentals/shared/rental.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/webapp/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/webapp/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/webapp/src/app/app.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/webapp/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/webapp/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/webapp/src/app/app.module.ts" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mpp@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mpp@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mpp@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="mpp: database" type="162271b6:PgImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mpp@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="mpp: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mpp@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="mpp: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mpp@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="mpp: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mpp@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="mpp: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="client: table" type="69fad909:PgImplModel$LocalTable" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mpp@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="mpp: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="movie: table" type="69fad909:PgImplModel$LocalTable" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mpp@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="mpp: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="rental: table" type="69fad909:PgImplModel$LocalTable" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/web/src/main/webapp" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1bj9cnmooR6ZppEKZew5XPoUQjo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/web/src/main/webapp/node_modules/typescript/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="lab12.web.converter" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="lab12.web.controller" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lab12.core.repository" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/src/main/resources" />
+      <recent name="$PROJECT_DIR$/core/src/main/resources" />
+      <recent name="$PROJECT_DIR$/web/src/main/webapp/src/app" />
+      <recent name="$PROJECT_DIR$/web/src/main/java/lab12/web" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="npm.Angular Server">
+    <configuration name="lab12 [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="dependencies" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="lab12" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="WebApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="lab12.web.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab12.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="lab12.web.WebApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.30" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Gradle : lab12 : web-1.0-SNAPSHOT.war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_lab12" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="52776" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Angular Server" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/web/src/main/webapp/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Gradle.lab12 [dependencies]" />
+      <item itemvalue="Gradle.lab12" />
+      <item itemvalue="npm.Angular Server" />
+      <item itemvalue="Spring Boot.WebApp" />
+      <item itemvalue="Tomcat Server.Tomcat" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.WebApp" />
+        <item itemvalue="Gradle.lab12 [dependencies]" />
+        <item itemvalue="Gradle.lab12" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f0be065f-900c-48ce-a669-bab87cd48a62" name="Default Changelist" comment="" />
+      <created>1589134717450</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589134717450</updated>
+      <workItem from="1589134719208" duration="217000" />
+      <workItem from="1589135661144" duration="198000" />
+      <workItem from="1589135869495" duration="642000" />
+      <workItem from="1589137657422" duration="2362000" />
+      <workItem from="1589140097291" duration="389000" />
+      <workItem from="1589179975277" duration="2473000" />
+      <workItem from="1589183641861" duration="304000" />
+      <workItem from="1589288118199" duration="1403000" />
+      <workItem from="1589361637697" duration="3850000" />
+      <workItem from="1590058591203" duration="790000" />
+      <workItem from="1590069455521" duration="894000" />
+      <workItem from="1590072120264" duration="644000" />
+      <workItem from="1590135336387" duration="2254000" />
+      <workItem from="1590155287456" duration="10494000" />
+      <workItem from="1590174415265" duration="2379000" />
+      <workItem from="1590214627585" duration="7964000" />
+      <workItem from="1590238675985" duration="7783000" />
+      <workItem from="1590313681427" duration="6040000" />
+      <workItem from="1590736930074" duration="103000" />
+      <workItem from="1591541283727" duration="3737000" />
+      <workItem from="1591547670395" duration="3421000" />
+      <workItem from="1591553022899" duration="4364000" />
+      <workItem from="1591598706924" duration="5709000" />
+      <workItem from="1591623433368" duration="1561000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

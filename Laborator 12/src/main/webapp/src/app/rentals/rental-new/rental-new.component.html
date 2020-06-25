@@ -1,0 +1,29 @@
+<h2>Add a new rental
+<button (click)="saveRental(String(selectedClient.id), String(selectedMovie.id))">
+  Save
+</button>
+</h2>
+
+<div class = "left">
+  <h2>Clients</h2>
+  <ol class="clients">
+    <li *ngFor="let client of clients "
+        [class.selected]="client === selectedClient"
+        (click)="onSelectClient(client)">
+      {{client.id}}
+    </li>
+  </ol>
+</div>
+
+<div class = "right">
+  <h2>Movies</h2>
+  <ol class="movies">
+    <li *ngFor="let movie of movies "
+        [class.selected]="movie === selectedMovie"
+        (click)="onSelectMovie(movie)">
+      {{movie.id}}
+    </li>
+  </ol>
+</div>
+
+

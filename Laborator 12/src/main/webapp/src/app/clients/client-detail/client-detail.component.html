@@ -1,0 +1,15 @@
+<div *ngIf="client">
+  <h2>Client {{client.name}} details</h2>
+  <div>
+    <label>Serial number: </label> {{client.serialNumber}}
+    <input [(ngModel)]="client.serialNumber" placeholder="serialNumber">
+  </div>
+
+  <div>
+    <label>Name: </label> {{client.name}}
+    <input [(ngModel)]="client.name" placeholder="duration">
+  </div>
+
+  <button (click)="goBack()">Back</button>
+  <button (click)="save()">Save</button>
+</div>

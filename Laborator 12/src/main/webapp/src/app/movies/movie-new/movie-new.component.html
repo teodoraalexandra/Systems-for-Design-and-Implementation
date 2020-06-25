@@ -1,0 +1,25 @@
+<h2>Add a new movie</h2>
+
+<div>
+  <label>Serial number:</label>
+  <input #serialNumber/>
+</div>
+
+<div>
+  <label>Title:</label>
+  <input #title/>
+</div>
+
+<div>
+  <label>Director:</label>
+  <input #director/>
+</div>
+
+<div>
+  <label>Duration:</label>
+  <input #duration/>
+</div>
+
+<button (click)="saveMovie(serialNumber.value, title.value, director.value, duration.value)">
+  Save
+</button>

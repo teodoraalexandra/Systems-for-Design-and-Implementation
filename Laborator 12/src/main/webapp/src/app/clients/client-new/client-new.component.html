@@ -1,0 +1,13 @@
+<h2>Add a new client</h2>
+
+<div>
+  <label>Serial number:</label>
+  <input #serialNumber/>
+</div>
+
+<div>
+  <label>Name</label>
+  <input #name/>
+</div>
+
+<button (click)="saveClient(serialNumber.value, name.value)">Save</button>
