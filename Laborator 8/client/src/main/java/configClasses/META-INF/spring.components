@@ -1,0 +1,2 @@
+config.MovieClientConfig=org.springframework.stereotype.Component
+config.RentalClientConfig=org.springframework.stereotype.Component

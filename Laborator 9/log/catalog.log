@@ -1,0 +1,65 @@
+2020-04-12T13:09:42,498 TRACE [main]: RentalServiceImpl                    - updateRental - method entered: movie=Rental{cid=2, mid=2} BaseEntity{id=2} 
+2020-04-12T13:09:42,515 DEBUG [main]: RentalServiceImpl                    - updateRental - updated: s=Rental{cid=1, mid=2} BaseEntity{id=2} 
+2020-04-12T13:09:42,516 TRACE [main]: RentalServiceImpl                    - updateRental - method finished 
+2020-04-12T13:11:40,714 TRACE [main]: RentalServiceImpl                    - updateRental - method entered: movie=Rental{cid=2, mid=2} BaseEntity{id=2} 
+2020-04-12T13:11:40,734 DEBUG [main]: RentalServiceImpl                    - updateMovie - updated: s=Rental{cid=2, mid=2} BaseEntity{id=2} 
+2020-04-12T13:11:40,735 TRACE [main]: RentalServiceImpl                    - updateRental - method finished 
+2020-04-12T13:50:55,673 TRACE [main]: ClientServiceImpl                    - saveClient - method entered: client=Client{serialNumber='abc', name=Teodora} BaseEntity{id=1} 
+2020-04-12T13:50:55,744 TRACE [main]: ClientServiceImpl                    - saveClient - method finished 
+2020-04-12T13:51:11,223 TRACE [main]: ClientServiceImpl                    - saveClient - method entered: client=Client{serialNumber='def', name=Alexandra} BaseEntity{id=2} 
+2020-04-12T13:51:11,235 TRACE [main]: ClientServiceImpl                    - saveClient - method finished 
+2020-04-12T13:51:27,287 TRACE [main]: ClientServiceImpl                    - updateClient - method entered: client=Client{serialNumber='abc', name=Mirela} BaseEntity{id=2} 
+2020-04-12T13:51:27,310 DEBUG [main]: ClientServiceImpl                    - updateClient - updated: client=Client{serialNumber='abc', name=Mirela} BaseEntity{id=2} 
+2020-04-12T13:51:27,310 TRACE [main]: ClientServiceImpl                    - updateClient - method finished 
+2020-04-12T13:51:46,332 TRACE [main]: ClientServiceImpl                    - deleteClient - method entered: id=1 
+2020-04-12T13:51:46,353 TRACE [main]: ClientServiceImpl                    - deleteClient - method finished 
+2020-04-12T13:52:27,090 TRACE [main]: MovieServiceImpl                     - saveMovie - method entered: movie=Movie{serialNumber='abc', title='title1', director='director1', duration=100} BaseEntity{id=1} 
+2020-04-12T13:52:27,098 TRACE [main]: MovieServiceImpl                     - saveMovie - method finished 
+2020-04-12T13:52:52,234 TRACE [main]: MovieServiceImpl                     - saveMovie - method entered: movie=Movie{serialNumber='def', title='director2', director='title2', duration=200} BaseEntity{id=2} 
+2020-04-12T13:52:52,249 TRACE [main]: MovieServiceImpl                     - saveMovie - method finished 
+2020-04-12T13:53:16,514 TRACE [main]: MovieServiceImpl                     - updateMovie - method entered: movie=Movie{serialNumber='def', title='title2', director='director2', duration=200} BaseEntity{id=2} 
+2020-04-12T13:53:16,522 DEBUG [main]: MovieServiceImpl                     - updateMovie - updated: movie=Movie{serialNumber='def', title='title2', director='director2', duration=200} BaseEntity{id=2} 
+2020-04-12T13:53:16,522 TRACE [main]: MovieServiceImpl                     - updateMovie - method finished 
+2020-04-12T13:53:25,121 TRACE [main]: MovieServiceImpl                     - deleteMovie - method entered: id=2 
+2020-04-12T13:53:25,132 TRACE [main]: MovieServiceImpl                     - deleteMovie - method finished 
+2020-04-12T13:54:13,864 TRACE [main]: RentalServiceImpl                    - saveRental - method entered: rental=Rental{cid=1, mid=1} BaseEntity{id=1} 
+2020-04-12T13:54:13,872 TRACE [main]: RentalServiceImpl                    - saveRental - method finished 
+2020-04-12T13:54:24,963 TRACE [main]: RentalServiceImpl                    - saveRental - method entered: rental=Rental{cid=2, mid=2} BaseEntity{id=2} 
+2020-04-12T13:54:24,971 TRACE [main]: RentalServiceImpl                    - saveRental - method finished 
+2020-04-12T13:54:38,960 TRACE [main]: RentalServiceImpl                    - updateRental - method entered: rental=Rental{cid=3, mid=3} BaseEntity{id=1} 
+2020-04-12T13:54:38,966 DEBUG [main]: RentalServiceImpl                    - updateRental - updated: rental=Rental{cid=3, mid=3} BaseEntity{id=1} 
+2020-04-12T13:54:38,967 TRACE [main]: RentalServiceImpl                    - updateRental - method finished 
+2020-04-12T13:54:56,858 TRACE [main]: RentalServiceImpl                    - deleteRental - method entered: id=1 
+2020-04-12T13:54:56,868 TRACE [main]: RentalServiceImpl                    - deleteRental - method finished 
+2020-04-12T15:17:19,588 TRACE [main]: ClientServiceImpl                    - saveClient - method entered: client=Client{serialNumber='aa', name=aa} BaseEntity{id=2} 
+2020-04-12T15:17:19,681 TRACE [main]: ClientServiceImpl                    - saveClient - method finished 
+2020-04-12T16:24:38,483 TRACE [main]: ClientServiceImpl                    - saveClient - method entered: client=Client{serialNumber='aa', name=a} BaseEntity{id=3} 
+2020-04-12T16:24:38,526 TRACE [main]: ClientServiceImpl                    - saveClient - method finished 
+2020-04-12T16:59:44,930 TRACE [main]: ClientServiceImpl                    - deleteClient - method entered: id=2 
+2020-04-12T16:59:44,970 TRACE [main]: ClientServiceImpl                    - deleteClient - method finished 
+2020-04-12T16:59:50,481 TRACE [main]: ClientServiceImpl                    - deleteClient - method entered: id=3 
+2020-04-12T16:59:50,490 TRACE [main]: ClientServiceImpl                    - deleteClient - method finished 
+2020-04-12T17:00:06,346 TRACE [main]: ClientServiceImpl                    - saveClient - method entered: client=Client{serialNumber='abc', name=Teodora} BaseEntity{id=1} 
+2020-04-12T17:00:06,370 TRACE [main]: ClientServiceImpl                    - saveClient - method finished 
+2020-04-12T17:00:13,918 TRACE [main]: ClientServiceImpl                    - saveClient - method entered: client=Client{serialNumber='def', name=Alexandra} BaseEntity{id=2} 
+2020-04-12T17:00:13,927 TRACE [main]: ClientServiceImpl                    - saveClient - method finished 
+2020-04-12T17:00:26,148 TRACE [main]: ClientServiceImpl                    - saveClient - method entered: client=Client{serialNumber='ghi', name=Dan} BaseEntity{id=3} 
+2020-04-12T17:00:26,155 TRACE [main]: ClientServiceImpl                    - saveClient - method finished 
+2020-04-12T17:00:57,595 TRACE [main]: MovieServiceImpl                     - saveMovie - method entered: movie=Movie{serialNumber='def', title='title2', director='director2', duration=200} BaseEntity{id=2} 
+2020-04-12T17:00:57,606 TRACE [main]: MovieServiceImpl                     - saveMovie - method finished 
+2020-04-12T17:01:27,817 TRACE [main]: MovieServiceImpl                     - saveMovie - method entered: movie=Movie{serialNumber='ghi', title='title3', director='director3', duration=300} BaseEntity{id=3} 
+2020-04-12T17:01:27,828 TRACE [main]: MovieServiceImpl                     - saveMovie - method finished 
+2020-04-12T17:01:57,117 TRACE [main]: MovieServiceImpl                     - saveMovie - method entered: movie=Movie{serialNumber='jkl', title='title4', director='director4', duration=400} BaseEntity{id=4} 
+2020-04-12T17:01:57,124 TRACE [main]: MovieServiceImpl                     - saveMovie - method finished 
+2020-04-12T17:02:43,340 TRACE [main]: RentalServiceImpl                    - deleteRental - method entered: id=2 
+2020-04-12T17:02:43,347 TRACE [main]: RentalServiceImpl                    - deleteRental - method finished 
+2020-04-12T17:02:51,966 TRACE [main]: RentalServiceImpl                    - saveRental - method entered: rental=Rental{cid=1, mid=1} BaseEntity{id=1} 
+2020-04-12T17:02:51,974 TRACE [main]: RentalServiceImpl                    - saveRental - method finished 
+2020-04-12T17:02:57,391 TRACE [main]: RentalServiceImpl                    - saveRental - method entered: rental=Rental{cid=2, mid=2} BaseEntity{id=2} 
+2020-04-12T17:02:57,408 TRACE [main]: RentalServiceImpl                    - saveRental - method finished 
+2020-04-12T17:03:16,453 TRACE [main]: RentalServiceImpl                    - saveRental - method entered: rental=Rental{cid=1, mid=2} BaseEntity{id=3} 
+2020-04-12T17:03:16,459 TRACE [main]: RentalServiceImpl                    - saveRental - method finished 
+2020-04-12T17:03:25,864 TRACE [main]: RentalServiceImpl                    - saveRental - method entered: rental=Rental{cid=2, mid=1} BaseEntity{id=4} 
+2020-04-12T17:03:25,871 TRACE [main]: RentalServiceImpl                    - saveRental - method finished 
+2020-04-14T16:47:21,184 TRACE [main]: ClientServiceImpl                    - deleteClient - method entered: id=1 
+2020-04-14T16:47:21,369 TRACE [main]: ClientServiceImpl                    - deleteClient - method finished 

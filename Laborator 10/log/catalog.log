@@ -1,0 +1,22 @@
+2020-04-28T15:23:18,152 TRACE [http-nio-8080-exec-4]: ClientController                     - ClientController - getClients - enter method 
+2020-04-28T16:27:30,653 TRACE [http-nio-8080-exec-1]: MovieController                      - MovieController - getMovies - enter method 
+2020-04-28T16:27:55,304 TRACE [http-nio-8080-exec-7]: ClientController                     - ClientController - getClients - enter method 
+2020-04-28T16:27:55,594 TRACE [http-nio-8080-exec-9]: ClientController                     - ClientController - getClients - enter method 
+2020-04-28T16:28:29,928 TRACE [http-nio-8080-exec-2]: ClientController                     - ClientController - getClients - enter method 
+2020-04-28T16:28:39,053 TRACE [http-nio-8080-exec-4]: ClientController                     - ClientController - saveClient - enter method 
+2020-04-28T16:29:11,505 TRACE [http-nio-8080-exec-1]: ClientController                     - ClientController - getClients - enter method 
+2020-04-28T16:29:11,768 TRACE [http-nio-8080-exec-5]: ClientController                     - ClientController - updateClient - enter method 
+2020-04-28T16:29:17,532 TRACE [http-nio-8080-exec-6]: ClientController                     - ClientController - getClients - enter method 
+2020-04-28T16:29:56,893 TRACE [http-nio-8080-exec-9]: ClientController                     - ClientController - getClients - enter method 
+2020-04-28T16:58:47,949 TRACE [http-nio-8080-exec-10]: MovieController                      - MovieController - getMovies - enter method 
+2020-04-28T16:58:48,593 TRACE [http-nio-8080-exec-2]: MovieController                      - MovieController - getMovies - enter method 
+2020-04-28T16:58:52,690 TRACE [http-nio-8080-exec-4]: MovieController                      - MovieController - getMovies - enter method 
+2020-04-28T16:58:54,547 TRACE [http-nio-8080-exec-1]: RentalController                     - RentalController - getRenrals - enter method 
+2020-04-28T16:58:54,652 TRACE [http-nio-8080-exec-5]: RentalController                     - RentalController - getRenrals - enter method 
+2020-04-28T16:59:49,559 TRACE [http-nio-8080-exec-7]: ClientController                     - ClientController - getClients - enter method 
+2020-04-28T17:00:12,958 TRACE [http-nio-8080-exec-9]: ClientController                     - ClientController - deleteClient - enter method 
+2020-04-28T17:00:16,977 TRACE [http-nio-8080-exec-3]: ClientController                     - ClientController - getClients - enter method 
+2020-05-04T10:20:40,151 WARN  [http-nio-8080-exec-5]: PageNotFound                         - No mapping found for HTTP request with URI [/api/students] in DispatcherServlet with name 'dispatcher' 
+2020-05-04T10:20:41,181 WARN  [http-nio-8080-exec-6]: PageNotFound                         - No mapping found for HTTP request with URI [/api] in DispatcherServlet with name 'dispatcher' 
+2020-05-04T10:20:43,742 TRACE [http-nio-8080-exec-7]: ClientController                     - ClientController - getClients - enter method 
+2020-05-04T10:21:17,832 TRACE [http-nio-8080-exec-10]: ClientController                     - ClientController - getClients - enter method 
